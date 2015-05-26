@@ -14,7 +14,7 @@
 
 1.VN and SN generator
 Source Code: /Network generator
-Description: baseed on Linux(Proposal Core Version 2.6.35-32), tools: Gt-itm
+Description: baseed on Linux(Proposal Core Version 2.6.35-32), tools: Gt-itm (Extract from gt-itm.zip)
 			def.h
 			mkreq.c
 			mksub.c
@@ -29,7 +29,7 @@ Description: Microsoft Visual Studio Ultimate 2012 version:11.0.50727.1 RTMREL(C
 		def.h
 		simulator.h
 		utility.h
-		thirdparty/boost_1_55_0
+		thirdparty/boost_1_55_0		//Download from http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.zip/download
 		thirdparty/k-shortest-paths
 Usage: 
 	VNE <sN> <rC> <rD> <oF> <nM> <eM> <fS> <lB> <MT>
@@ -62,13 +62,13 @@ usage:
 	static2xls.exe  <Input Filefolder>  <Ourput filefolder>
 	
 4.GNU Linear Programming Kit
-source code£ºsim_code/glpk-4.45.tar.gz
-Usage£º
+source code:sim_code/glpk-4.45.tar.gz
+Usage:
 	Build_GLPK_with_VC10.bat
 	glpsol.exe (Put into MY_SIM/VNE)
 	
 5.MY simulation environment and simulation results
-	source:	/MY_SIM
+	source:	/sim environment    (Extract from sim_environment.zip)
 					my_data_request	//Virtual Network Requests
 					my_data_result	//VNE simulation results
 					my_data_static	//Statistics
