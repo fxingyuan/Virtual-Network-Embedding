@@ -38,7 +38,7 @@ Notes:
     <rC>: total number of requests;
     <rD>: directory containing the requests;
     <oF>: output file to dump the results;
-	<nM>: node mapping method (1: GREEDY. 5: D-ViNE 6: R-ViNE 8:VNE-RFD-D 9:VNE-RFD-B 10£ºVNE-TA(VNE-GRFD & VNR-GRFD)); 
+    <nM>: node mapping method (1: GREEDY. 5: D-ViNE 6: R-ViNE 8:VNE-RFD-D 9:VNE-RFD-B 10£ºVNE-TA(VNE-GRFD & VNR-GRFD)); 
     <eM>: edge mapping method (1: GREEDY. 5: MCF);
     <fS>: whether to ignore (1) or respect(0) VNR's splitting choice [eM must be 5];
     <lB>: load balancing (1: alpha = beta = 1. 0: alpha = beta = residue);
