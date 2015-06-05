@@ -19,6 +19,18 @@ Description: baseed on Linux(Proposal Core Version 2.6.35-32), tools: Gt-itm (Ex
 			mkreq.c
 			mksub.c
 Usage:
+	mkreq   <n> <split_r> <link_r> <cpu_r> <topo_r> <maxD> <scale> <dir_name>
+	
+	Sub.txt
+		nodeNum edgeNum
+		x           y       cpu
+		from        to      bw        dlay
+	req.txt
+		nodeNum  edgeNum   split  time  duration  topology  maxD
+		x          y         cpu  
+		from       to        bw    dlay
+
+
 
 2.VNE System
 Source Code: Sim_code/code/VNE
